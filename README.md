@@ -1,4 +1,4 @@
-# Desafio-Front---McDonald's
+# Desafio Front - McDonald's
 Iniciando estudo sobre posições relativas e absolutas - CSS.
 
 Desafio versão desktop - McDonald's! -- :)
