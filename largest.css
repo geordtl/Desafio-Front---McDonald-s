@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 0%;
+}
+
+.nav ul {
+    position: absolute;
+    font-size: 2em;
+    list-style: none;
+    right: 6%;
+    top: 8%;
+}
+
+.nav ul li {
+    color: white;
+    display: inline-block;
+}
+
+a {
+    font-size: 50px;
+    position: relative;
+    text-decoration: white;
+    color: white;
+    font-style: normal;
+    font-family: "Noto Sans";
+    margin-left: 18px;
+}
+
+    a:before { /*  barrinha sublinhada, antes de selecionar o conteúdo com o cursor */
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    width: 700px;
+    height: 225px;
+}
+
+.red_phone {
+    position: absolute;
+    top: -12%;
+    left: 35%;
+    width: 850px;
+    height: 600px;
+}
+
+.black_phone {
+    position: absolute;
+    top: 18%;
+    left: 70%;
+    width: 700px;
+    height: 620px;
+}
+
+.big_phone {
+    position: absolute;
+    left: 52%;
+    top: 20%;
+    width: 794.33px;
+    height: 900px;
+}
+
+.yellow_phone {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 78%;
+    left: 31.5%;
+}
+
+.botoes {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.sizesB {
+    margin-right: 35px;
+    width: 330px;
+    height: 100px;
+}
+
+.h1 {
+    width: 1550px;
+    margin-left: 7%;
+    margin-top: 12%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 125px;
+    line-height: 145px;
+    color: white;
+}
+
+.p {
+    white-space: pre-line;
+    margin-left: 7%;
+    margin-top: 9%;
+    color: white;
+    font-family: "Noto Sans";
+    font-size: 30px;
+    font-style: normal;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
